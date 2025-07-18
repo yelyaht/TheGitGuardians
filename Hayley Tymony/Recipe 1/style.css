@@ -10,6 +10,17 @@ body {
   padding: 1rem;
 }
 
+.intro {
+  max-width: 700px;
+  margin: 1rem auto;
+  background-color: rgba(255,255,255,0.85);
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  text-align: center;
+  border: 1px solid #54161E;
+}
+
 a {
   color: #0066cc;
   text-decoration: underline;
@@ -24,7 +35,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  color: #950606;
+  color: #800000;
   margin-top: 2rem;
   margin-bottom: 1rem;
   text-align: center;
@@ -70,7 +81,7 @@ figcaption {
 }
 
 div {
-  background-color: #FFFF8C;
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 1rem;
   margin-bottom: 2rem;
   border-radius: 8px;
@@ -111,10 +122,10 @@ input {
 /* Rating Section Styles */
 .rating-section {
   flex: 1 1 300px;
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 1rem;
   border-radius: 8px;
-  border: 1px solid #966fb6;
+  border: 1px solid #54161E;
 
   /* NEW centering rules */
   display: flex;
@@ -123,16 +134,15 @@ input {
 }
 
 .rating-section fieldset {
-  border: 2px solid #966fb6;
+  border: 2px solid darkred;
   padding: 1rem;
   width: 100%;
   box-sizing: border-box;
-  text-align: center;
 }
 
 .rating-section legend {
   font-weight: bold;
-  color: #966fb6;
+  color: darkred;
 }
 .ingredients-and-rating {
   display: flex;
@@ -148,38 +158,12 @@ input {
   }
 }
 
-@media (max-width: 768px) {
-  .container {
-    grid-template-areas:
-      "header"
-      "links"
-      "picture"
-      "rating"
-      "ingredients"
-      "equipment"
-      "directions"
-      "footer";
-    grid-template-columns: 1fr;
-  }
-}
-
-.grid-wrapper {
-  background-color: #FFFF8C;
-  padding: 2rem;
-}
-
 .ingredients-section, .rating-section {
   flex: 1 1 300px;
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 1rem;
   border-radius: 8px;
-  border: 1px solid #ff4d00;
-}
-
-.rating-section label,
-.rating-section input[type="radio"] + label {
-  color: #966fd6;
-  font-weight: bold;
+  border: 1px solid #54161E;
 }
 
 .right-column {
@@ -187,23 +171,22 @@ input {
   flex-direction: column;
   align-items: center;
   flex: 1 1 300px;
-  background-color: #FFFF8C;
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 1rem;
   border-radius: 8px;
-  border: 1px solid #ff4d00;
+  border: 1px solid #54161E;
   gap: 2rem;
 }
 
 .conversion-section {
   text-align: center;
-  border: 1px solid #ff4d00;
-  background-color: #ffffff;
+  border: 1px solid #54161E;
 }
 
 .conversion-section input {
   margin: 0.5rem;
   padding: 0.5rem;
-  border: 1px solid #966fb6;
+  border: 1px solid #ccc;
   border-radius: 4px;
 }
 
@@ -215,108 +198,22 @@ input {
   justify-content: space-between;
 }
 
-/* === GRID LAYOUT STYLES === */
-.container {
-  display: grid;
-  grid-template-areas:
-    "header header header"
-    "links picture rating"
-    "ingredients equipment directions"
-    "footer footer footer";
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
+.directions-box, .about-box {
+  flex: 1 1 300px;
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 1rem;
-}
-
-/* Assigning areas */
-.header-banner     { grid-area: header; }
-.links             { grid-area: links; }
-.picture           { grid-area: picture; }
-.rating-conversion { grid-area: rating; }
-.ingredients-section { grid-area: ingredients; }
-.equipment-section   { grid-area: equipment; }
-.directions-box      { grid-area: directions; }
-.footer            { grid-area: footer; }
-
-/* Optional: Make sections stand out */
-.links, .picture, .rating-conversion,
-.ingredients-section, .equipment-section,
-.directions-box, .footer {
-  background-color: #ffffff;
-  border: 1px solid #ff4d00;
   border-radius: 8px;
-  padding: 1rem;
-}
-{
-  box-sizing: border-box;
+  border: 1px solid #54161E;
 }
 
-[class*="col"] {
-          float: left;
-        /*  padding: 15px;  */
-        }
-
-.row: :after {
-    content: "";
-    clear: both;
-    display: block;
-    }
-
-.footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #6ac5fe;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-    border-radius: 8px;
-    border: none;
-    flex-wrap: wrap;
-}
-
-.footer a {
-  color: black;
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-.footer p {
-  color: black;
-  margin: 0;
-}
-
-.recipe-heading {
-  font-size: 1.5rem;
+.about-box {
   text-align: center;
-  color: black;
-    /* background-color: #98fb98; */
-  background: linear-gradient(90deg, #DFB0D3, #DB94BE, #D983A6, #D94773);
-  padding: 0.75rem;
-  border-radius: 8px;
-  margin-bottom: 1rem;
-  font-weight: bold;
-    /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); */
 }
 
-.recipe-links {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+.about-box img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #54161E;
   margin-top: 1rem;
-  text-align: center;
-}
-
-.recipe-links a {
-  background-color: #98fb98;
-  color: #950606;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  border-radius: 4px;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-}
-
-.recipe-links a:hover {
-  background-color: #00000000;
 }
