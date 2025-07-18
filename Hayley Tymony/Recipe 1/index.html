@@ -8,7 +8,7 @@
 
     <style>
       body {
-        background-image: url("image/background.jpg");
+        background-image: url("image/newmainbackground.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -42,14 +42,14 @@
         margin-left: 20px;
       }
       .rate {
-    color: #950606;
+    color: darkred;
     font-weight: bold;
       }
       .rating-section fieldset {
-        border: 2px solid #966fb6;
+        border: 2px solid darkred;
       }
       .header-banner {
-        background-image: url("image/banner.gif");
+        background-image: url("image/cherrybanner.gif");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -62,60 +62,29 @@
   </head>
 
   <body>
-    <div class="container">
 
-    <header class="header-banner">
+    <div class="header-banner">
   <h1>A Poor Girl's Cookbook</h1>
-    </header>
-
-    <div class="links">
-      <h3 class="recipe-heading">Unlock your Baking Creativity</h3>
-      
-      <nav class="recipe-links">
-        <a href="#">Recipes</a> <!-- Replace this a header of sorts -->
-        <a href="#">Appetizer</a> <!-- Replace # with actual appetizer links -->
-        <a href="#">Entree</a> <!-- Replace # with actual entree links -->
-        <a href="#">Dessert</a> <!-- Replace # with actual dessert links -->
-        <a href="#">Sides</a> <!-- Replace # with actual sides links -->
-      </nav>
     </div>
 
-    <div class="picture">
+    <div>
       <h2>Tiramisu</h2>
       <p>
         This recipe is adapted from "Tastes Better From Scratch" written by Lauren Allen.
         And found on <a href="https://tastesbetterfromscratch.com/easy-tiramisu/">https://tastesbetterfromscratch.com/easy-tiramisu/</a>
       </p>
       <figure>
-        <img src="image/tiramisu.jpg" alt="dessert" class="tiramisu">
+        <img src="image/Tiramisu.jpg" alt="dessert" class="tiramisu">
         <figcaption>Photo by: Lauren Allen</figcaption>
       </figure>
      </div>
 
-<div class="rating-conversion">
-  <div class="rating-section">
-    <h3 class="rate">Rate This Recipe</h3>
-    <fieldset>
-      <legend>How difficult is this recipe?</legend>
-      <input type="radio" id="easy" name="easy">
-      <label for="easy">Easy</label>
-
-      <input type="radio" id="med" name="easy">
-      <label for="easy">Intermediate</label>
-
-      <input type="radio" id="hard" name="easy">
-      <label for="easy">Hard</label>
-    </fieldset>
-  </div>
-
-  <div class="conversion-section">
-    <h3>Conversion</h3>
-    <input type="text" id="tblspn" name="tblspn"> =
-    <input type="text" id="cups" name="cups">
-  </div>
-</div>
+     <p class="intro">
+       Tiramisu is a classic Italian dessert known for its creamy layers of mascarpone cheese, coffee-soaked ladyfingers, and a dusting of cocoa powder. It's elegant, delicious, and surprisingly simple to make at home! Though it feels timeless, tiramisu was actually created in Italy in the 1960s, most likely in Treviso at a restaurant called Le Beccherie. Its name means “pick me up,” thanks to its coffee and cocoa. Today, people enjoy tiramisu around the world as a go-to dessert for special occasions, dinner parties, or simply as an indulgent treat with coffee.
+     </p>
 
      <!-- Flexbox start -->
+     <div class="ingredients-and-rating">
  <div class="ingredients-section">
    <h3>Ingredients List</h3>
    <ul>
@@ -130,18 +99,30 @@
    </ul>
  </div>
 
-  <div class="equipment-section">
-    <h3>Equipment List</h3>
-    <ul>
-      <li>8x8 dish</li>
-      <li>Hand mixer</li>
-      <li>Measuring cups</li>
-      <li>Teaspoon</li>
-      <li>Spatula</li>
-      <li>Fine mesh strainer (Optional)</li>
-    </ul>
+ <div class="right-column">
+  <div class="rating-section">
+    <h3 class="rate">Rate This Recipe</h3>
+    <fieldset>
+      <legend>How difficult is this recipe?</legend>
+      <input type="radio" id="easy" name="easy"> Easy
+      <input type="radio" id="med" name="easy"> Intermediate
+      <input type="radio" id="hard" name="easy"> Hard
+    </fieldset>
+    <p>&nbsp;</p>
   </div>
 
+  <div class="conversion-section">
+    <h3>Conversion</h3>
+    <input type="text" id="tblspn" name="tblspn"> =
+    <input type="text" id="cups" name="cups">
+  </div>
+</div>
+        <!-- <h3>Equipment List</h3>
+      <ul>
+        <li>8x8 dish</li>
+        <li>Hand mixer</li>
+      </ul> -->
+    <div class="directions-and-about">
       <div class="directions-box">
         <h3>Directions</h3>
         <ol>
@@ -151,17 +132,16 @@
           <li>Dust cocoa powder generously over the top (I use a fine mesh strainer to do this). Refrigerate for at least 3-4 hours or up to overnight before serving.</li>
         </ol>
       </div>
+
+    <div class="about-box">
+      <h3>Hi! I'm Hayley. I'm a Potterhead and I love to bake.</h3>
+      <img src="image/hayley.jpg" alt="hayley">
+    </div>
   </div>
 
       <hr />
-    <footer class="footer">
-      <div class="footer-left">
-        <a href="index.html">← Back to Homepage</a>
-      </div>
-      <div class="footer-right">
-        <p>This page was created as an academic activity only.</p>
-      </div>
-    </footer>
-    <!-- </div> -->
+      <p>This page was created as an academic activity only.</p>
   </body>
 </html>
+
+<!-- Header could be a cherry blossom gif with words over it saying "Unlock your baking creativity" -->
