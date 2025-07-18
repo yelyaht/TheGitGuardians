@@ -1,0 +1,219 @@
+body {
+  background-image: url("image/newmainbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #333333;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 1rem;
+}
+
+.intro {
+  max-width: 700px;
+  margin: 1rem auto;
+  background-color: rgba(255,255,255,0.85);
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  text-align: center;
+  border: 1px solid #54161E;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #800000;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #b22222;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #333333;
+  text-align: center;
+}
+
+ul, ol {
+  margin-left: 2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+figure {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #ccc;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: #666666;
+  margin-top: 0.5rem;
+}
+
+div {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  border: 1px solid #00000000;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 2rem 0;
+}
+
+input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0.2rem;
+}
+
+/* Header Banner with GIF Background */
+.header-banner {
+  background-image: url("image/cherrybanner.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+}
+
+/* .header-banner h1 {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+} */
+
+/* Rating Section Styles */
+.rating-section {
+  flex: 1 1 300px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #54161E;
+
+  /* NEW centering rules */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating-section fieldset {
+  border: 2px solid darkred;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.rating-section legend {
+  font-weight: bold;
+  color: darkred;
+}
+.ingredients-and-rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+@media (max-width: 700px) {
+  .ingredients-and-rating {
+    flex-direction: column;
+  }
+}
+
+.ingredients-section, .rating-section {
+  flex: 1 1 300px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #54161E;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 300px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #54161E;
+  gap: 2rem;
+}
+
+.conversion-section {
+  text-align: center;
+  border: 1px solid #54161E;
+}
+
+.conversion-section input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.directions-and-about {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 2rem 0;
+  justify-content: space-between;
+}
+
+.directions-box, .about-box {
+  flex: 1 1 300px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #54161E;
+}
+
+.about-box {
+  text-align: center;
+}
+
+.about-box img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #54161E;
+  margin-top: 1rem;
+}
