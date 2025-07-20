@@ -120,6 +120,26 @@ input {
   border-radius: 8px;
 } */
 
+.sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.sticky-header button {
+    background-color: #fff;
+    color: #333;
+    border: 0;
+    padding: 6px 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 /* Rating Section Styles */
 .rating-section {
   flex: 1 1 300px;
