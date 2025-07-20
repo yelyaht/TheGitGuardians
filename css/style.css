@@ -1,0 +1,51 @@
+/* ------GLOBAL-------*/
+
+body {
+    background-color: rgb(255, 255, 255);
+
+}
+
+/* --------HEADER -------*/
+header {}
+
+header h1 {}
+
+header p {
+    color: rgb(0, 0, 0);
+
+}
+
+header a {
+    color: rgba(0, 94, 218, 0.904);
+}
+
+header a:hover {
+    text-decoration: none;
+}
+
+
+header a:visited {
+    color: rgba(255, 144, 246, 0.842);
+}
+
+/* --------MAIN-------*/
+
+main {}
+
+
+
+/* ---------FOOTER--------*/
+
+footer {}
+
+footer a {}
+
+footer a:hover {
+    text-decoration: none;
+
+}
+
+footer a:visited {
+    color: rgba(255, 144, 246, 0.842);
+
+}
