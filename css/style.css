@@ -1,8 +1,11 @@
 /* ------GLOBAL-------*/
 
 body {
-    background-color: rgb(255, 255, 255);
-
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff9e6;
+    font-family: 'Calibri', sans-serif;
 }
 
 /* --------HEADER -------*/
@@ -12,7 +15,6 @@ header h1 {}
 
 header p {
     color: rgb(0, 0, 0);
-
 }
 
 header a {
@@ -23,7 +25,6 @@ header a:hover {
     text-decoration: none;
 }
 
-
 header a:visited {
     color: rgba(255, 144, 246, 0.842);
 }
@@ -32,7 +33,90 @@ header a:visited {
 
 main {}
 
+div {
+    border: double #00adb5;
+    padding-right: 20px;
+    padding-left: 20px;
+}
 
+h1, h2 {
+    font-family: 'relation', sans-serif;
+    color: #7cb6b6;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: xx-large;
+    font-family: 'Calibri', sans-serif;
+    color: #7cb6b6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+p, ul, li, ol {
+	color: #7cb6b6;
+	text-align: left;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+ul, li, ol {
+    line-height: 50%;
+}
+
+figure {
+    font-size: small;
+	text-align: left;
+    margin: 0 auto;
+}
+
+img {
+    border: 2px solid #00adb5;
+}
+
+a {
+    color: #7cb6b6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
+.rate {
+	color: #7cb6b6;
+	text-align: left;
+    padding-bottom: 10px;
+}
+
+fieldset {
+	color: #7cb6b6;
+   	font-size: small;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper div {
+  flex: 1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+[class*="col"] {
+    float: left;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
 
 /* ---------FOOTER--------*/
 
@@ -42,10 +126,8 @@ footer a {}
 
 footer a:hover {
     text-decoration: none;
-
 }
 
 footer a:visited {
     color: rgba(255, 144, 246, 0.842);
-
 }
