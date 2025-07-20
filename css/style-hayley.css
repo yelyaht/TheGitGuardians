@@ -139,7 +139,10 @@ input {
     border-radius: 5px;
     cursor: pointer;
 }
-
+.group-title {
+    font-size: 0.9em;
+    font-style: italic;
+}
 /* Rating Section Styles */
 .rating-section {
   flex: 1 1 300px;
