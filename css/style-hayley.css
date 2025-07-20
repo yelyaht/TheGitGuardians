@@ -1,5 +1,5 @@
 body {
-  background-image: url("image/newmainbackground.jpg");
+  background-image: url("../image/newmainbackground.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -13,7 +13,7 @@ body {
 .intro {
   max-width: 700px;
   margin: 1rem auto;
-  background-color: rgba(255,255,255,0.85);
+  background-color: rgba(255, 255, 255, 0.85);
   padding: 1rem;
   border-radius: 8px;
   border: 1px solid #ccc;
@@ -55,7 +55,8 @@ p {
   text-align: center;
 }
 
-ul, ol {
+ul,
+ol {
   margin-left: 2rem;
 }
 
@@ -144,6 +145,7 @@ input {
   font-weight: bold;
   color: darkred;
 }
+
 .ingredients-and-rating {
   display: flex;
   flex-direction: row;
@@ -152,13 +154,15 @@ input {
   flex-wrap: wrap;
   margin: 2rem 0;
 }
+
 @media (max-width: 700px) {
   .ingredients-and-rating {
     flex-direction: column;
   }
 }
 
-.ingredients-section, .rating-section {
+.ingredients-section,
+.rating-section {
   flex: 1 1 300px;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 1rem;
@@ -198,7 +202,8 @@ input {
   justify-content: space-between;
 }
 
-.directions-box, .about-box {
+.directions-box,
+.about-box {
   flex: 1 1 300px;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 1rem;
