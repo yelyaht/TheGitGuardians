@@ -1,6 +1,9 @@
 /* ------GLOBAL-------*/
 
+
+
 body {
+    height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -39,7 +42,8 @@ div {
     padding-left: 10px;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Dancing Script', cursive;
     color: #7cb6b6;
     padding-top: 10px;
@@ -55,19 +59,24 @@ h3 {
     margin: 0 auto;
 }
 
-p, ul, li, ol {
-	color: #7cb6b6;
-	text-align: left;
+p,
+ul,
+li,
+ol {
+    color: #7cb6b6;
+    text-align: left;
     padding-top: 10px;
     margin: 0 auto;
 }
 
-ul, li, ol {
+ul,
+li,
+ol {
     line-height: 50%;
 }
 
 figure {
-	text-align: left;
+    text-align: left;
     margin: 0 auto;
 }
 
@@ -86,27 +95,41 @@ a:hover {
 }
 
 .rate {
-	color: #7cb6b6;
-	text-align: left;
+    color: #7cb6b6;
+    text-align: left;
     padding-bottom: 10px;
 }
 
 fieldset {
-	color: #7cb6b6;
-   	font-size: small;
+    color: #7cb6b6;
+    font-size: small;
 }
 
 .wrapper {
-  display: flex;
+    display: flex;
 }
 
 .wrapper div {
-  flex: 1;
+    flex: 1;
 }
 
 * {
     box-sizing: border-box;
 }
+
+.row {
+    /* padding: 1rem 0 1rem 0; */
+}
+
+#first-2-recipes {
+    padding-bottom: 6rem;
+}
+
+#second-2-recipes {
+
+    padding-bottom: 6rem;
+}
+
 
 [class*="col"] {
     float: left;
@@ -120,9 +143,30 @@ fieldset {
 
 /* ---------FOOTER--------*/
 
-footer {}
+footer {
+    color: #7cb6b6;
+}
 
-footer a {}
+hr {
+
+    height: 1px;
+    background-color: #7cb6b6;
+    border: none;
+
+}
+
+#footer-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+footer a {
+    font-weight: 700;
+    text-decoration: underline;
+
+}
 
 footer a:hover {
     text-decoration: none;

@@ -121,29 +121,29 @@ input {
 } */
 
 .sticky-header {
-    position: sticky;
-    top: 0;
-    background-color: #fff9e6;
-    color: #fff9e6;
-    padding: 10px 15px;
-    display: flex;
-    justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: #fff9e6;
+  color: #fff9e6;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .sticky-header button {
-    color: #7cb6b6;
-    background-color: #fff9e6;
-    border: 2px solid #7cb6b6;
-    padding: 6px 12px;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
+  color: #7cb6b6;
+  background-color: #fff9e6;
+  border: 2px solid #7cb6b6;
+  padding: 6px 12px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .group-title {
-    font-size: 1em;
-    font-style: italic;
-    color: #7cb6b6;
+  font-size: 1em;
+  font-style: italic;
+  color: #7cb6b6;
 }
 
 /* Rating Section Styles */
@@ -250,33 +250,34 @@ input {
 }
 
 .sticky-header {
-    position: sticky;
-    top: 0;
-    background-color: #333;
-    color: white;
-    padding: 10px 15px;
-    display: flex;
-    justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: #fff9e6;
+  color: #fff9e6;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .sticky-header button {
-    background-color: #fff;
-    color: #333;
-    border: 0;
-    padding: 6px 12px;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
+  color: #7cb6b6;
+  background-color: #fff9e6;
+  border: 2px solid #7cb6b6;
+  padding: 6px 12px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .group-title {
-    font-size: 0.9em;
-    font-style: italic;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5em;
+  font-style: italic;
+  color: #7cb6b6;
 }
 
 .page-footer {
-  background-color: #0000000;
-  color: white;
+  background-color: #000000;
   text-align: right;
   padding: 1rem;
   font-size: 0.9rem;
@@ -285,4 +286,8 @@ input {
   width: 100%;
   border-top: 2px solid #800000;
   margin-top: 2rem;
+}
+
+.page-footer p {
+  color: white;
 }

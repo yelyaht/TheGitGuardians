@@ -19,7 +19,8 @@
 }
 
 .group-title {
-    font-size: 1em;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
     font-style: italic;
     color: #7cb6b6;
 }
@@ -31,27 +32,35 @@ body {
     color: #fff9e6;
     font-family: 'Calibri', sans-serif;
 }
-h1, h2 {
+
+h1,
+h2 {
     font-family: 'relation', sans-serif;
     color: goldenrod;
     padding-top: 20px;
     margin: 0 auto;
 }
 
-p, h3, ul, li, ol {
-	color: #fff;
-	text-align: left;
+p,
+h3,
+ul,
+li,
+ol {
+    color: #fff;
+    text-align: left;
     padding-top: 10px;
     margin: 0 auto;
 }
 
-ul, li, ol {
-	font-size: small;
+ul,
+li,
+ol {
+    font-size: small;
 }
 
 figure {
     font-size: xx-small;
-	text-align: center;
+    text-align: center;
 }
 
 img {
@@ -69,23 +78,23 @@ a:hover {
 }
 
 .rate {
-	color: #fff9e6;
-	text-align: center;
+    color: #fff9e6;
+    text-align: center;
     padding-bottom: 10px;
 }
 
 fieldset {
-	color: #fff9e6;
-   	font-size: small;
+    color: #fff9e6;
+    font-size: small;
     margin: 0 auto;
 }
 
 .wrapper {
-  display: flex;
+    display: flex;
 }
 
 .wrapper div {
-  flex: 1;
+    flex: 1;
 }
 
 div {
