@@ -1,5 +1,5 @@
 body {
-  background-image: url("image/newmainbackground.jpg");
+  background-image: url("../image/newmainbackground.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -13,7 +13,7 @@ body {
 .intro {
   max-width: 700px;
   margin: 1rem auto;
-  background-color: rgba(255,255,255,0.85);
+  background-color: rgba(255, 255, 255, 0.85);
   padding: 1rem;
   border-radius: 8px;
   border: 1px solid #ccc;
@@ -55,7 +55,8 @@ p {
   text-align: center;
 }
 
-ul, ol {
+ul,
+ol {
   margin-left: 2rem;
 }
 
@@ -119,6 +120,32 @@ input {
   border-radius: 8px;
 } */
 
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background-color: #fff9e6;
+  color: #fff9e6;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sticky-header button {
+  color: #7cb6b6;
+  background-color: #fff9e6;
+  border: 2px solid #7cb6b6;
+  padding: 6px 12px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.group-title {
+  font-size: 1em;
+  font-style: italic;
+  color: #7cb6b6;
+}
+
 /* Rating Section Styles */
 .rating-section {
   flex: 1 1 300px;
@@ -144,6 +171,7 @@ input {
   font-weight: bold;
   color: darkred;
 }
+
 .ingredients-and-rating {
   display: flex;
   flex-direction: row;
@@ -152,13 +180,15 @@ input {
   flex-wrap: wrap;
   margin: 2rem 0;
 }
+
 @media (max-width: 700px) {
   .ingredients-and-rating {
     flex-direction: column;
   }
 }
 
-.ingredients-section, .rating-section {
+.ingredients-section,
+.rating-section {
   flex: 1 1 300px;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 1rem;
@@ -198,7 +228,8 @@ input {
   justify-content: space-between;
 }
 
-.directions-box, .about-box {
+.directions-box,
+.about-box {
   flex: 1 1 300px;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 1rem;
@@ -216,4 +247,47 @@ input {
   border-radius: 8px;
   border: 1px solid #54161E;
   margin-top: 1rem;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background-color: #fff9e6;
+  color: #fff9e6;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sticky-header button {
+  color: #7cb6b6;
+  background-color: #fff9e6;
+  border: 2px solid #7cb6b6;
+  padding: 6px 12px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.group-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5em;
+  font-style: italic;
+  color: #7cb6b6;
+}
+
+.page-footer {
+  background-color: #000000;
+  text-align: right;
+  padding: 1rem;
+  font-size: 0.9rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid #800000;
+  margin-top: 2rem;
+}
+
+.page-footer p {
+  color: white;
 }
