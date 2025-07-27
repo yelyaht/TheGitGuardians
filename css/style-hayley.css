@@ -119,22 +119,40 @@ input {
   border-radius: 8px;
 } */
 
+/* Sticky Header to HOPEFULLY match the mainpage */
 .sticky-header {
-    position: sticky;
-    top: 0;
-    background-color: #C4F0FF;
-    color: #00595e;
-    padding: 10px 15px;
-    display: flex;
-    justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-image: url("../images/newmainbackground.jpg"); /* Use the same background as the main content */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white; /* Adjust text color for visibility */
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center; /* Center align the header text */
 }
 
 .group-title {
-    font-family: 'Dancing Script', cursive;
-    font-size: 2em;
-    font-style: bold;
-    padding: 10px 15px;
-    color: #00595e;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+  font-weight: bold; /* Apply bold text for emphasis */
+  color: white; /* Ensure the text is readable on the background */
+}
+
+.sticky-header h4 {
+  font-size: 1.2rem;
+  margin: 0;
+  color: white;
+}
+
+.sticky-header a {
+  color: white; /* Set link color to white for contrast */
+}
+
+.sticky-header a:hover {
+  color: #f0e68c; /* Change link color on hover */
 }
 
 /* Rating Section Styles */
