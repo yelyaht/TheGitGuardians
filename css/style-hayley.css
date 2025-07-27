@@ -32,12 +32,19 @@ h1 {
   color: #000000;
 }
 
-h2 {
+/* h2 {
   font-size: 2rem;
   color: #800000;
   margin-top: 2rem;
   margin-bottom: 1rem;
   text-align: center;
+} testing */
+
+h2 {
+    font-family: 'relation', sans-serif;
+    color: goldenrod;
+    padding-top: 20px;
+    margin: 0 auto;
 }
 
 h3 {
