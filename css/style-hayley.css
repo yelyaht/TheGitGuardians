@@ -123,11 +123,11 @@ input {
 .sticky-header {
   position: sticky;
   top: 0;
-  background-image: url("../images/newmainbackground.jpg"); /* Use the same background as the main content */
+  background-color: #c4f0ff; /* Use the same background as the main content */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  color: white; /* Adjust text color for visibility */
+  color: #00595e; /* Adjust text color for visibility */
   padding: 10px 15px;
   display: flex;
   justify-content: space-between;
@@ -137,8 +137,9 @@ input {
 .group-title {
   font-family: 'Dancing Script', cursive;
   font-size: 2em;
-  font-weight: bold; /* Apply bold text for emphasis */
-  color: white; /* Ensure the text is readable on the background */
+  font-style: bold; /* Apply bold text for emphasis */
+  color: #00595e; /* Ensure the text is readable on the background */
+  padding: 10px 15px;
 }
 
 .sticky-header h4 {
