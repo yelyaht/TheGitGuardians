@@ -23,7 +23,6 @@ body {
 
 a {
   color: #0066cc;
-  text-decoration: underline;
 }
 
 h1 {
@@ -121,29 +120,21 @@ input {
 } */
 
 .sticky-header {
-  position: sticky;
-  top: 0;
-  background-color: #fff9e6;
-  color: #fff9e6;
-  padding: 10px 15px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.sticky-header button {
-  color: #7cb6b6;
-  background-color: #fff9e6;
-  border: 2px solid #7cb6b6;
-  padding: 6px 12px;
-  font-weight: bold;
-  border-radius: 5px;
-  cursor: pointer;
+    position: sticky;
+    top: 0;
+    background-color: #C4F0FF;
+    color: #00595e;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .group-title {
-  font-size: 1em;
-  font-style: italic;
-  color: #7cb6b6;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    font-style: bold;
+    padding: 10px 15px;
+    color: #00595e;
 }
 
 /* Rating Section Styles */
@@ -249,33 +240,6 @@ input {
   margin-top: 1rem;
 }
 
-.sticky-header {
-  position: sticky;
-  top: 0;
-  background-color: #fff9e6;
-  color: #fff9e6;
-  padding: 10px 15px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.sticky-header button {
-  color: #7cb6b6;
-  background-color: #fff9e6;
-  border: 2px solid #7cb6b6;
-  padding: 6px 12px;
-  font-weight: bold;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.group-title {
-  font-family: 'Dancing Script', cursive;
-  font-size: 1.5em;
-  font-style: italic;
-  color: #7cb6b6;
-}
-
 .page-footer {
   background-color: #000000;
   text-align: right;
@@ -288,6 +252,33 @@ input {
   margin-top: 2rem;
 }
 
-.page-footer p {
-  color: white;
+/* ---------FOOTER--------*/
+footer {
+    color: #00595e;
+}
+
+hr {
+    height: 1px;
+    background-color: #00595e;
+    border: none;
+}
+
+#footer-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+footer a {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: goldenrod;
+}
+
+footer a:visited {
+    color: #00595e;
 }

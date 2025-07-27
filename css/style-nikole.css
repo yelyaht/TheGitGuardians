@@ -1,28 +1,19 @@
 .sticky-header {
     position: sticky;
     top: 0;
-    background-color: #fff9e6;
-    color: #fff9e6;
+    background-color: #C4F0FF;
+    color: #00595e;
     padding: 10px 15px;
     display: flex;
     justify-content: space-between;
 }
 
-.sticky-header button {
-    color: #7cb6b6;
-    background-color: #fff9e6;
-    border: 2px solid #7cb6b6;
-    padding: 6px 12px;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
 .group-title {
     font-family: 'Dancing Script', cursive;
-    font-size: 1.5em;
-    font-style: italic;
-    color: #7cb6b6;
+    font-size: 2em;
+    font-style: bold;
+    padding: 10px 15px;
+    color: #00595e;
 }
 
 body {
@@ -64,12 +55,12 @@ figure {
 }
 
 img {
-    border: 2px solid #00adb5;
+    border: 2px solid #00777e;
     position: relative;
 }
 
 a {
-    color: #00adb5;
+    color: #00777e;
     text-decoration: none;
 }
 
@@ -101,4 +92,35 @@ div {
     /*border: double cornflowerblue;*/
     padding-right: 30px;
     padding-left: 30px;
+}
+
+/* ---------FOOTER--------*/
+footer {
+    color: #00595e;
+}
+
+hr {
+    height: 1px;
+    background-color: #00595e;
+    border: none;
+}
+
+#footer-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+footer a {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: goldenrod;
+}
+
+footer a:visited {
+    color: #00595e;
 }

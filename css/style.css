@@ -1,51 +1,56 @@
 /* ------GLOBAL-------*/
-
-
-
 body {
-    height: 100%;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
-    color: #fff9e6;
     font-family: 'Calibri', sans-serif;
 }
 
 /* --------HEADER -------*/
-header {}
-
-header h1 {}
-
 header p {
     color: rgb(0, 0, 0);
 }
 
 header a {
-    color: 00adb5
+    color: #00595e
 }
 
 header a:hover {
-    text-decoration: none;
+    color: goldenrod;
 }
 
 header a:visited {
-    color: rgba(255, 144, 246, 0.842);
+    color: #00595e;
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: #C4F0FF;
+    color: #00595e;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.group-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    font-style: bold;
+    padding: 10px 15px;
+    color: #00595e;
 }
 
 /* --------MAIN-------*/
-
-main {}
-
 div {
-    /*border: double #00adb5;*/
-    padding-right: 10px;
-    padding-left: 10px;
+    border: double #00595e;
+    padding: 10px 10px;
 }
 
 h1,
 h2 {
     font-family: 'Dancing Script', cursive;
-    color: #7cb6b6;
+    color: #00595e;
     padding-top: 10px;
     margin: 0 auto;
 }
@@ -53,7 +58,7 @@ h2 {
 h3 {
     font-size: xx-large;
     font-family: 'Calibri', sans-serif;
-    color: #7cb6b6;
+    color: #00595e;
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0 auto;
@@ -63,7 +68,7 @@ p,
 ul,
 li,
 ol {
-    color: #7cb6b6;
+    color: #00595e;
     text-align: left;
     padding-top: 10px;
     margin: 0 auto;
@@ -81,27 +86,23 @@ figure {
 }
 
 img {
-    border: 2px solid #00adb5;
+    border: 2px solid #00595e;
     width: 250px;
 }
 
 a {
-    color: #7cb6b6;
+    color: #00595e;
     text-decoration: none;
 }
 
-a:hover {
-    color: goldenrod;
-}
-
 .rate {
-    color: #7cb6b6;
+    color: #00595e;
     text-align: left;
     padding-bottom: 10px;
 }
 
 fieldset {
-    color: #7cb6b6;
+    color: #00595e;
     font-size: small;
 }
 
@@ -126,10 +127,8 @@ fieldset {
 }
 
 #second-2-recipes {
-
     padding-bottom: 6rem;
 }
-
 
 [class*="col"] {
     float: left;
@@ -142,36 +141,32 @@ fieldset {
 }
 
 /* ---------FOOTER--------*/
-
 footer {
-    color: #7cb6b6;
+    color: #00595e;
 }
 
 hr {
-
     height: 1px;
-    background-color: #7cb6b6;
+    background-color: #00595e;
     border: none;
-
 }
 
 #footer-column {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 15px;
 }
-
 
 footer a {
     font-weight: 700;
     text-decoration: underline;
-
 }
 
 footer a:hover {
-    text-decoration: none;
+    color: goldenrod;
 }
 
 footer a:visited {
-    color: rgba(255, 144, 246, 0.842);
+    color: #00595e;
 }
