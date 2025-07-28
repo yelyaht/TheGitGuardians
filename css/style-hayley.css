@@ -152,19 +152,19 @@ input {
   justify-content: space-between;
   text-align: center;
   align-items: center;
-  font-size: 0.6rem;
+  font-size: 1.2rem;
 }
 
 .group-title {
   font-family: 'Dancing Script', cursive;
-  font-size: 2em;
+  font-size: 1.5em;
   font-style: bold; /* Apply bold text for emphasis */
   color: #00595e; /* Ensure the text is readable on the background */
   padding: 10px 15px;
 }
 
 .sticky-header h4 {
-  font-size: 1rem; /* changed from font-size: 1.2rem;*/
+  font-size: 1.2rem; /* changed from font-size: 1.2rem;*/
   margin: 0;
   color: black;
 }
