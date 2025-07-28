@@ -19,7 +19,8 @@
 body {
     background-color: #ffca88;
     color: #41331f;
-    margin-left: 20px
+    margin-left: 20px;
+    font-family: 'Calibri', sans-serif;
 }
 
 .wrapper {
