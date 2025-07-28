@@ -70,12 +70,14 @@ a:hover {
 }
 
 .rate {
+    color: #fff;
     text-align: center;
     padding-bottom: 10px;
 }
 
 fieldset {
     font-size: small;
+    color: #fff;
     margin: 0 auto;
 }
 
