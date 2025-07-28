@@ -173,6 +173,11 @@ h4 a:hover {
 
 }
 
+h4 a:visited {
+    color: #00595e;
+
+}
+
 p {
 
     line-height: 0.5em;
@@ -201,9 +206,7 @@ a:hover {
     font-size: 1.05em;
 }
 
-a:visited {
-    color: rgba(177, 49, 49, 0.76);
-}
+
 
 .ingredients>h3 {
     background-color: rgb(184, 229, 235);
