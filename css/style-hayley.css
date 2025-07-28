@@ -205,6 +205,10 @@ input {
   color: black; /* changed from darkred */
 }
 
+.rating-section label {
+  color: black; /* test for change the font color to black */
+}
+
 .ingredients-and-rating {
   display: flex;
   flex-direction: row;
