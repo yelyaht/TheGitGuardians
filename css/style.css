@@ -7,19 +7,15 @@ body {
 }
 
 /* --------HEADER -------*/
-header p {
-    color: rgb(0, 0, 0);
-}
-
-header a {
+a {
     color: #00595e
 }
 
-header a:hover {
+a:hover {
     color: goldenrod;
 }
 
-header a:visited {
+a:visited {
     color: #00595e;
 }
 
