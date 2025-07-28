@@ -198,7 +198,7 @@ input {
   padding: 1rem;
   width: 100%;
   box-sizing: border-box;
-  font-color: black;
+  font-color: darkred;
 }
 
 .rating-section legend {
