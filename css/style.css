@@ -15,9 +15,9 @@ a:hover {
     color: goldenrod;
 }
 
-a:visited {
+/*a:visited {
     color: #00595e;
-}
+}*/
 
 .sticky-header {
     position: sticky;
