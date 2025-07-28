@@ -82,6 +82,7 @@ ol {
 
 li {
   margin-bottom: 0.5rem;
+  color: black; /*hopefully changes font color to black */
 }
 
 figure {
