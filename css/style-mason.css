@@ -16,6 +16,12 @@
     color: #00595e;
 }
 
+h4 a {
+    color: #00595e;
+    font-family: 'Calibri', sans-serif;
+    text-decoration: none;
+}
+
 body {
     background-color: #ffca88;
     color: #41331f;
@@ -129,11 +135,13 @@ hr {
     justify-content: space-between;
     align-items: center;
     padding: 10px 15px;
+    font-family: 'Calibri', sans-serif;
 }
 
 footer a {
     font-weight: 700;
     text-decoration: underline;
+    font-family: 'Calibri', sans-serif;
 }
 
 footer a:hover {
