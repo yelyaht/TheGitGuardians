@@ -212,7 +212,7 @@ input {
   margin: 2rem 0;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .ingredients-and-rating {
     flex-direction: column;
   }
@@ -300,15 +300,14 @@ footer {
    margin: 0;
    box-sizing: border-box;
 }
-
 hr {
-    height: 1px;
-    background-color: #00595e;
-    border: none;
+   height: 1px;
+   background-color: #00595e;
+   border: none;
 }
 
 #footer-column {
-    display: flex;
+display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 15px;
@@ -316,12 +315,12 @@ hr {
 }
 
 footer a {
-    font-weight: 700;
-    text-decoration: underline;
+   font-weight: 700;
+   text-decoration: underline;
 }
 
 footer a:hover {
-    color: goldenrod;
+   color: goldenrod;
 }
 
 footer a:visited {

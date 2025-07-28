@@ -53,6 +53,7 @@ body {
     padding: 10px 15px;
     display: flex;
     justify-content: space-between;
+    z-index: 2;
 }
 
 .group-title {
@@ -234,6 +235,8 @@ fieldset legend {
 /* ---------FOOTER--------*/
 footer {
     color: #00595e;
+    grid-row: 5/6;
+    grid-column: 1/4;
 }
 
 hr {
