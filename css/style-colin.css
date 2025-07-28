@@ -264,7 +264,6 @@ hr {
     font-weight: 700;
     color: #00595e;
     padding: 10px 15px;
-    width: 100%;
     grid-column: 1/4;
     grid-row: 6;
     display: flex;
