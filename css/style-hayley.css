@@ -198,15 +198,12 @@ input {
   padding: 1rem;
   width: 100%;
   box-sizing: border-box;
+  font-color: black;
 }
 
 .rating-section legend {
   font-weight: bold;
-  color: black; /* changed from darkred */
-}
-
-.rating-section label {
-  color: black; /* test for change the font color to black */
+  color: darkred; 
 }
 
 .ingredients-and-rating {
