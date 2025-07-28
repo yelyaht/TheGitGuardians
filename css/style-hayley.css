@@ -1,3 +1,13 @@
+/* .header-banner {
+  background-image: url("../images/cherrybanner.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+} */
+
 body {
   background-image: url("../image/newmainbackground.jpg");
   background-repeat: no-repeat;
@@ -113,7 +123,7 @@ input {
 }
 
 /* Header Banner with GIF Background */
-.header-banner {
+/* .header-banner {
   background-image: url("image/cherrybanner.gif");
   background-repeat: no-repeat;
   background-size: cover;
@@ -121,7 +131,7 @@ input {
   padding: 2rem;
   text-align: center;
   color: #00595e;
-}
+} */
 
 /* .header-banner h1 {
   background-color: rgba(0, 0, 0, 0.5);
@@ -135,14 +145,12 @@ input {
   position: sticky;
   top: 0;
   background-color: #c4f0ff; /* Use the same background as the main content */
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   color: #00595e; /* Adjust text color for visibility */
   padding: 10px 15px;
   display: flex;
   justify-content: space-between;
-  text-align: center; /* Center align the header text */
+  text-align: center;
+  align-items: center;
 }
 
 .group-title {
@@ -160,11 +168,13 @@ input {
 }
 
 .sticky-header a {
-  color: white; /* Set link color to white for contrast */
+  color: #00777e; /* Set link color to white for contrast */
+  text-decoration: none;
+  text-align: center;
 }
 
 .sticky-header a:hover {
-  color: #f0e68c; /* Change link color on hover */
+  color: goldenrod; /* Change link color on hover */
 }
 
 /* Rating Section Styles */
