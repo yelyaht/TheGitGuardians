@@ -202,7 +202,7 @@ input {
 
 .rating-section legend {
   font-weight: bold;
-  color: darkred;
+  color: black; /* changed from darkred */
 }
 
 .ingredients-and-rating {
